@@ -1,5 +1,5 @@
 /* CSS Document */
-blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul, h1 {
     margin: 0;
     padding: 0
 }
@@ -65,9 +65,10 @@ body {
     width: 320px;
     height: 74px;
     background: url(../images/logo.png) no-repeat;
-    margin-top: 51px;
+    margin-top: 110px;
     position: relative;
     z-index: 1;
+    float: right;
 
 }
 
@@ -181,4 +182,13 @@ body {
     color: #c8c8c8;
     line-height: 25px;
     padding-top: 10px;
+}
+
+.h1 {
+    display: inline-block;
+    margin-top: 51px;
+    position: relative;
+    z-index: 1;
+    font-size: 72px;
+    color: #fff;
 }
